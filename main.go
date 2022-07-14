@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	telebot.SetToken("5108345015:AAHgfbMUtpEzlnBsWU-8MJCigUCc5yPWuw4")
+	telebot.SetToken("")
 	r := gin.Default()
 	r.POST("/", func(c *gin.Context) {
 		rq := telebot.UserReqBody{}
